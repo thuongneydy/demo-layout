@@ -1,0 +1,161 @@
+/*style common*/
+.clearfix{
+    clear: both;
+    overflow: hidden;
+}
+.fixwidth{
+    margin: 0px !important;
+}
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+#main{
+    width: 1000px;
+    margin: 0px auto;
+}
+/*end style common*/
+
+/*style header*/
+#header{
+    height: 150px;
+    margin-bottom: 15px;
+}
+#logo{
+    width: 29%;
+    height: 100%;
+    float: left;
+    background: #08a4f9;
+}
+#banner{
+    width: 70%;
+    height:100%;
+    float: right;
+    background: #08f941;
+}
+#header h2{
+    color: #fff;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+}
+/*end style header*/
+/*style header-link*/
+#header-link{
+    height: 50px;
+    background: #eaeae8;
+    margin-bottom: 15px;
+}
+#header-link-left{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+#header-link-left ul li{
+    float: left;
+}
+#header-link-left ul li a{
+    line-height: 50px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-right: 1px solid #000;
+}
+#header-link-left ul li:last-child a{
+    border-right: 0px;
+}
+#header-link-right{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+#search{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/*end style header-link*/
+
+/*style content*/
+#content{
+    height: 800px;
+}
+#content-left{
+    float: left;
+    width: 19%;
+    margin-right: 15px;
+    height: 100%;
+}
+.sidebar{
+    background: #f9a041;
+    height: 250px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.sidebar ul li a{
+    display: block;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#main-content{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#main-content-1{
+    margin-bottom: 15px;
+}
+.head-item{
+    float: left;
+    width: 49%;
+    margin-right: 12px;
+    height: 200px;
+    background: #ccc;
+}
+.item{
+    float: left;
+    width: 32%;
+    margin-right: 12px;
+    height: 150px;
+    background: #ccc;
+    margin-bottom: 15px;
+}
+.head-item h2,
+.item h2{
+    font-weight: bold;
+    line-height: 200px;
+    text-align: center;
+}
+
+#content-right{
+    float: right;
+    width: 18%;
+    margin-left: 15px;
+}
+.content-right-item{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 250px;
+    background: #ce65e8;
+}
+.content-right-item h2{
+    line-height: 250px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+/*end style content*/
+
+/*style footer*/
+#footer{
+    height: 100px;
+    background: #000;
+}
+#footer h2{
+    font-weight: bold;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+}
